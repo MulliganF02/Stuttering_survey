@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stuttering_blockages",
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "Blockages(insert example here)",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Never",
+                "value": 0
+            },
+            {
+                "name": "Sometimes",
+                "value": 1
+            },
+            {
+                "name": "A lot",
+                "value": 2
+            },
+            {
+                "name": "I don't know",
+                "value": 3
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        ],
+    "@type": "reproschema:Activity",
+    "@id": "Qualityoflife_schema",
+    "prefLabel": "Screening",
+    "description": "Quality of life of participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "stuttering_age",
+                "isAbout": "items/stuttering_age"
+            },
+            {
+                "variableName": "stuttering_peak",
+                "isAbout": "items/stuttering_peak"
+            },
+            {
+                "variableName": "stuttering_repetitions",
+                "isAbout": "items/stuttering_repetitions"
+            },
+            {
+                "variableName": "stuttering_blockages",
+                "isAbout": "items/stuttering_blockages"
+            },
+            {
+                "variableName": "stuttering_continuation",
+                "isAbout": "items/stuttering_continuation"
+            },
+            {
+                "variableName": "stuttering_frequency",
+                "isAbout": "items/stuttering_frequency"
+            },
+            {
+                "variableName": "stuttering_length",
+                "isAbout": "items/stuttering_length"
+            },
+            {
+                "variableName": "stuttering_secondary",
+                "isAbout": "items/stuttering_secondary"
+            },
+            {
+                "variableName": "stuttering_feeling",
+                "isAbout": "items/stuttering_feeling"
+            },
+            {
+                "variableName": "stuttering_sounds",
+                "isAbout": "items/stuttering_sounds"
+            },
+            {
+                "variableName": "stuttering_vowels",
+                "isAbout": "items/stuttering_vowels",
+                "isVis": "stuttering_sounds === 4"
+            },
+            {
+                "variableName": "stuttering_words",
+                "isAbout": "items/stuttering_words"
+            }
+        ],
+        "order": [
+            "items/stuttering_age",
+            "items/stuttering_peak",
+	        "items/stuttering_repetitions",
+	        "items/stuttering_blockages",
+	        "items/stuttering_continuation",
+            "items/stuttering_frequency",
+            "items/stuttering_length",
+            "items/stuttering_secondary",
+            "items/stuttering_feeling",
+            "items/stuttering_sounds",
+            "items/stuttering_vowels",
+            "items/stuttering_words"
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stuttering_feeling",
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "How does it feel when you stutter?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 5,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Like nothing",
+                "value": 0
+            },
+            {
+                "name": "I am very conscious during the moment",
+                "value": 1
+            },
+            {
+                "name": "I lose control",
+                "value": 2
+            },
+            {
+                "name": "Time passes slower",
+                "value": 3
+            },
+            {
+                "name": "Time passes faster",
+                "value": 4
+            },
+            {
+                "name": "Other",
+                "value": 5
+            }
+        ]
+    }
+}

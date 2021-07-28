@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stuttering_secondary",
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "Secondary behaviors(tapping, fist clenching, loss of eye contact, etc)",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "None or not perceivable",
+                "value": 0
+            },
+            {
+                "name": "Somewhat perceivable",
+                "value": 1
+            },
+            {
+                "name": "Certainly perceivable",
+                "value": 2
+            }
+        ]
+    }
+}

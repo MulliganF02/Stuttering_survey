@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stuttering_sound",
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "What are some sounds you think you might stutter on?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Plosives(p,t,k,b,d,g)",
+                "value": 0
+            },
+            {
+                "name": "Fricatives(hissing sound f, sh, s, etc)",
+                "value": 1
+            },
+            {
+                "name": "Nasal sounds(n,m,etc)",
+                "value": 2
+            },
+            {
+                "name": "Lateral or approximant(l or r)",
+                "value": 3
+            },
+            {
+                "name": "Vowels(if yes which ones)",
+                "value": 4
+            }
+        ]
+    }
+}

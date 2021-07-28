@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+	"@type": "reproschema:Protocol",
+	"@id": "Stutteringsurvey_schema",
+	"prefLabel": {
+		"en": "Stuttering survey"
+	},
+	"ui": {
+        "addProperties": [
+            {"isAbout": "../activities/demographics/demographics_schema",
+            "variableName": "demographics_schema",
+            "prefLabel": {"en": "Demographics"}
+            },
+            {"isAbout": "../activities/Stuttering/stuttering_schema",
+            "variableName": "stuttering_schema",
+            "prefLabel": {"en": "Stuttering History"}
+            },
+            {"isAbout": "../activities/QualityofLife/Qualityoflife_schema",
+            "variableName": "Qualityoflife_schema",
+            "prefLabel": {"en": "Quality of Life"}
+            }
+        ],
+    "order": [
+            "../activities/demographics/demographics_schema",
+            "../activities/Stuttering/stuttering_schema",
+            "../activities/QualityofLife/Qualityoflife_schema"
+        ],
+		"shuffle": false,
+		"allow": [
+			"reproschema:AllowExport"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "speech_therapy",
+    "prefLabel": "speech_therapy",
+    "description": "Quality of life",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Have you had any form of speech therapy(visiting with a speech language pathologist/used speech-language apps)?"
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

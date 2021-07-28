@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stuttering_frequency",
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "How frequent are your moments of stutter?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Less than once per sentence",
+                "value": 0
+            },
+            {
+                "name": "Roughly once per sentence",
+                "value": 1
+            },
+            {
+                "name": "More",
+                "value": 2
+            }
+        ]
+    }
+}

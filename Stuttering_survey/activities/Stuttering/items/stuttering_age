@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stuttering_age",
+    "prefLabel": "stuttering_age",
+    "description": "Age of stuttering.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "At what age did you start stuttering?",
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer"
+    }
+}

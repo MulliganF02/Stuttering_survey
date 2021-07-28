@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stuttering_peak",
+    "prefLabel": "stuttering_peak",
+    "description": "Peak of stuttering.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "At what age was the peak of your stuttering?",
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer"
+    }
+}
