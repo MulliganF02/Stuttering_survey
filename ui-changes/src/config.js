@@ -1,6 +1,6 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/sensein/Stuttering_survey/master/Stuttering_survey/protocol/Stutteringsurvey_schema',
+  githubSrc: 'https://raw.githubusercontent.com/sensein/Stuttering_survey/master/protocol/Stutteringsurvey_schema',
   startButton: {
     "en": 'Join',
     "es": 'Participar'
