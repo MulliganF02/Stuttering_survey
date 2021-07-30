@@ -5,6 +5,14 @@
 	"prefLabel": {
 		"en": "Stuttering survey"
 	},
+  "description": "Stuttering Survey for PWS",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": [{
+            "@id": "README.md",
+            "inLanguage": "en"
+        }
+    ],
 	"ui": {
         "addProperties": [
             {"isAbout": "../activities/demographics/demographics_schema",
